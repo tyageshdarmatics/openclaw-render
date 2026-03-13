@@ -20,3 +20,6 @@ services:
 
       - key: OPENCLAW_GATEWAY_TOKEN
         generateValue: true
+
+      - key: NODE_OPTIONS
+        value: "--max-old-space-size=450"
