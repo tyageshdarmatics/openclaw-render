@@ -1,12 +1,12 @@
-FROM node:20
+FROM node:22
 
 WORKDIR /app
 
-# Install OpenClaw
-RUN npm install -g openclaw
-
-EXPOSE 8080
+RUN npm install -g openclaw@latest
 
 ENV PORT=8080
 
-CMD ["openclaw", "gateway"]
+EXPOSE 8080
+
+ENTRYPOINT ["openclaw"]
+CMD ["gateway"]
