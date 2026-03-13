@@ -9,4 +9,4 @@ ENV PORT=8080
 EXPOSE 8080
 
 ENTRYPOINT ["openclaw"]
-CMD ["gateway"]
+CMD ["gateway", "--port", "8080", "--bind", "lan", "--allow-unconfigured"]
