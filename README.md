@@ -1,4 +1,4 @@
-\# OpenClaw Render Deployment
+# OpenClaw Render Deployment
 
 
 
@@ -6,7 +6,7 @@ This repository deploys OpenClaw on Render using Docker.
 
 
 
-\## Deploy
+## Deploy
 
 
 
@@ -18,7 +18,7 @@ After deployment open:
 
 
 
-/setup
+setup
 
 
 
@@ -30,5 +30,6 @@ Dashboard will be available at:
 
 
 
-/openclaw
+openclaw
+
 
